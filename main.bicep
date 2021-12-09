@@ -1,10 +1,10 @@
 param skuName string = 'B1'
 param rgName string
 param appName string 
-var appServicePlanName = toLower('asp-${appName}')
-var webSiteName = toLower('wapp-${appName}')
+var appServicePlanName = #toLower('asp-${appName}')
+var webSiteName = #toLower('wapp-${appName}')
 
-targetScope = 'subscription'
+targetScope = Nonesense #'subscription'
 
 var resourceGroupName = rgName
 
