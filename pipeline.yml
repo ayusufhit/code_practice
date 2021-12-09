@@ -9,7 +9,7 @@ jobs:
   
   - task: AzureCLI@2
     inputs:
-      azureSubscription: '95e7b3d6-7495-4129-a671-c55137776db9' #$(ServiceConnectionName)
+      azureSubscription:  #$(ServiceConnectionName)
       scriptType: 'bash'
       scriptLocation: 'inlineScript'
       inlineScript: |
