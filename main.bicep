@@ -4,6 +4,5 @@
   params: {
       SPName: appServicePlanName
 NONESENSE
-More nonesense
 }
 
